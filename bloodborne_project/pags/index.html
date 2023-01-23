@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seekers Of Insight</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar_left">
+            <div class="icon_div"><img src="https://pbs.twimg.com/media/EQ2g1tbVAAAzlIf.jpg" alt="" style="width: 50px;
+                    height: 50px;
+                    border-radius: 20px;">
+            </div>
+
+            <button><a href="about_we.html">Sobre nós</a></button>
+            <button class="agora"><a href="index.html">Inicio</a></button>
+            <button><a href="login.html">Login</a></button>
+
+        </div>
+
+        <div class="navbar_right">
+            <button><a href="enciclopedias.html">Enciclopédia</a></button>
+            <button><a href="quizes.html">quiz</a></button>
+
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="destaque">
+            <img src="https://see.fontimg.com/api/renderfont4/MVA5x/
+            eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiI
+            jNUUwMjAyIiwiYmdjIjoiIzJEMUYxRiIsInQiOjF9/RGVzdGFxdWVz/fleshandblood.png" alt="">
+        </div>
+        <div class="subtitle">
+            <img src="https://see.fontimg.com/api/renderfont4/MVA5x/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiIjNUUwMjAyIiwiYmdjIjoiIzJEMUYxRiIsInQiOjF9/RW5jaWNsb3BlZGlhcw/fleshandblood.png"
+                alt="">
+        </div>
+
+        <div class="banners_vert">
+            <div class="banner_vertical1">
+               <button class="img_button">
+                <img src="https://p4.wallpaperbetter.com/wallpaper/51/847/715/fantasy-art-artwork-bloodborne-dark-souls-video-game-art-hd-wallpaper-preview.jpg"
+                    alt="">
+               </button>
+
+                <div class="letreiro">
+                    <button class="redirecionar1"><a href="enci_1.html">Sobre a fromsoftware</a></button>
+                    <!-- <span>Sobre a fromsoftware</span> -->
+                </div>
+            </div>
+
+            <div class="banner_vertical2">
+                <div class="img_button">
+                    <img src="https://64.media.tumblr.com/ddb691ce5b49207fc0e0b92a6a59cb9c/463793bb7ffface0-73/s1280x1920/66ee36cbc288e180cb48c4c84959713c3ba98f3c.jpg"
+                    alt="">
+                </div>
+
+                <div class="letreiro2">
+                    <button class="redirecionar2"><a href="enci_2.html">Bosses</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner_horin">
+            <div class="banner_horizontal1">
+                <div class="img_button">
+                    <img src="https://2.bp.blogspot.com/-mxEPJbubQjU/WP4Dvj42S0I/AAAAAAAAL9k/HZ6jQnJ85-o_cVM9Z2F4SfaJZFG8mOkWQCLcB/s1600/bloodborne-ludwig.jpg"
+                    style="width: 1100px;
+                       height: 400px;" alt="">
+                </div>
+            
+                <div class="letreiro_horizont">
+                    <button class="redirecionar3"><a href="enci_3.html">Old Hunters Dlc</a></button>
+                </div>
+            </div>
+
+            <div class="banner_horizontal2">
+                <div class="img_button">
+                    <img src="https://images.hdqwalls.com/wallpapers/lady-maria-bloodborne-4k-0m.jpg" 
+                    style="width: 1100px;
+                    height: 400px; " alt="">
+                </div>
+                
+                <div class="letreiro_horizont2">
+                    <button class="redirecionar4"><a href="enci_4.html">Lugares e suas Historias</a></button>
+                </div>
+            </div>
+
+            <div class="banner_horizontal2">
+                <div class="img_button">
+                    <img src="https://cdn.donmai.us/original/d2/99/__amygdala_bloodborne_drawn_by_tripdancer__d2991c5fdeae241c74778c6415908c6b.png"
+                 style="width: 1100px;
+                       height: 400px; " alt="">
+                </div>
+    
+                <div class="letreiro_horizont2">
+                    <button class="redirecionar5"><a href="enci_5.html">Referências a Lovecraft</a></button>
+                </div>
+            </div>
+
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+        <footer>
+            <div class="icon_div"><img src="https://pbs.twimg.com/media/EQ2g1tbVAAAzlIf.jpg" alt="" style="width: 50px;
+                height: 50px;
+                border-radius: 20px;">
+            </div>
+            <span class="footer_span">Site feito por &#169;DiihNunes </span>
+            <div class="footer_right">
+                <li>Suporte</li>
+                <li>Termos de Serviço</li>
+                <li>Desenvolvedores</li>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
+
+<script>
+        // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>

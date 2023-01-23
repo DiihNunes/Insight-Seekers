@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body {
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(65, 65, 65, 0.705);
+    color: aliceblue;
+}
+
+footer {
+    width: 100.8%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(65, 65, 65, 0.705);
+    color: aliceblue;
+    list-style: none;
+    margin-top: 3%;
+}
+
+.footer {
+    width: 100.8%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(65, 65, 65, 0.705);
+    color: aliceblue;
+    list-style: none;
+    margin-top: 158%;
+}
+
+.footer_right {
+    display: flex;
+    align-items: center;
+    margin-left: 47%;
+    list-style: none;
+}
+
+.footer_right li {
+    margin-left: 20px;
+}
+
+.footer_span {
+    margin-left: 20px;
+}
+
+.navbar_left,
+.navbar_right {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbar_right {
+    margin-left: 30%;
+}
+
+.header button {
+    margin-left: 30px;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    transition-duration: 0.4s;
+    background-color: #888888;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+.header button:hover {
+    background-color: #4d2c63;
+    color: white;
+    transition-duration: 0.8s;
+}
+
+.agora {
+    font-weight: bolder;
+    color: rgb(151, 151, 151);
+}
+
+.text1 {
+    margin-left: 5%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgba(65, 65, 65, 0.705);
+    height: 550px;
+    width: 500px;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.text2 {
+    margin-left: 57%;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    background-color: rgba(65, 65, 65, 0.705);
+    height: 150px;
+    width: 500px;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.letreiro,
+.letreiro2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10%;
+    background-color: rgba(65, 65, 65, 0.705);
+    height: 40px;
+    width: 363px;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text1 img {
+    height: 40px;
+    padding-left: 28%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.text2 img {
+    height: 40px;
+    padding-left: 28%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.body {
+    height: 100vh;
+    width: 98vw;
+    margin-bottom: 60px;
+}
+
+.posts1 {
+    padding-top: 20px;
+    height: 100vh;
+    width: 85%;
+    background-color: rgb(29, 29, 29);
+    align-self: center;
+    align-items: center;
+}
+
+.img_only {
+    margin-top: 1%;
+    height: 90vh;
+    width: 98.5vw;
+    background-image: url(https://wallpapercave.com/wp/wp1835122.jpg);
+    background-repeat: no-repeat;
+    background-size: 1260px;
+}
+
+.img_only2 {
+    height: 100vh;
+    width: 98.5vw;
+    background-image: url(https://images3.alphacoders.com/955/955380.jpg);
+    background-repeat: no-repeat;
+    background-size: 1260px;
+}
+
+.banner_vertical1 {
+    margin-left: 20%;
+    height: 20vh;
+    width: 40vw;
+}
+
+.banner_vertical1 img {
+    height: 600px;
+    width: 400px;
+    border-radius: 14px;
+}
+
+.banner_vertical2 {
+    height: 20vh;
+    width: 40vw;
+    margin-left: 100px;
+}
+
+.banner_vertical2 img {
+    height: 600px;
+    width: 400px;
+    border-radius: 14px;
+}
+
+.banners_vert {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 700px;
+}
+
+.banner_vert_line2 {
+    padding-left: 4%;
+}
+
+.banner_vert_line2 .banner_vertical3 .letreiro3 button {
+    margin-left: 0;
+    background-color: rgba(65, 65, 65, 0.705);
+    height: 100px;
+    width: 400px;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_vert_line2,
+.banner_vert_line3 {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 81vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19%;
+}
+
+.banner_vert_line3 {
+    padding-left: 10%;
+    margin-bottom: 25%;
+}
+
+.banner_vertical3 {
+    margin-left: 23%;
+    height: 40vh;
+    width: 40vw;
+    margin-bottom: 80px;
+}
+
+.banner_vertical3 img {
+    height: 600px;
+    width: 400px;
+    border-radius: 14px;
+}
+
+.banner_vertical4 {
+    height: 40vh;
+    width: 40vw;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+.banner_vertical4 img {
+    height: 600px;
+    width: 400px;
+    border-radius: 14px;
+}
+
+.destaque {
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 5vh;
+    width: 30vw;
+}
+
+.subtitle {
+    margin-top: 30px;
+    margin-left: 120px;
+    height: 15vh;
+    width: 30vw;
+}
+
+.banner_horizontal1,
+.banner_horizontal2 {
+    height: 500;
+    width: 1000;
+    margin-left: 80px;
+    margin-top: 60px;
+    border-radius: 14px;
+}
+
+.banner_horin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.letreiro_horizont,
+.letreiro_horizont2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10%;
+    background-color: rgba(65, 65, 65, 0.705);
+    height: 40px;
+    width: 986px;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.redirecionar1 {
+    background: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    margin-left: 19%;
+}
+
+.redirecionar3 {
+    background: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    margin-left: 35%;
+}
+
+.redirecionar2 {
+    background: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    margin-left: 35%;
+}
+
+.redirecionar4,
+.redirecionar5 {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    margin-left: 32%;
+}
+
+.letreiro_pequeno {
+    background: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    margin-left: 39.5%;
+}
+
+.redirecionar1 a,
+.redirecionar2 a,
+.redirecionar3 a {
+    color: #fff;
+}
+
+.redirecionar1 a,
+.redirecionar2 a,
+.redirecionar3 a,
+.redirecionar4,
+.redirecionar5,
+.letreiro_pequeno {
+    cursor: pointer;
+}
+
+.redirecionar1 a:hover,
+.redirecionar2 a:hover,
+.redirecionar3 a:hover,
+.redirecionar4:hover,
+.redirecionar5:hover,
+.letreiro_pequeno:hover {
+    color: rgb(131, 0, 0);
+    transition-duration: 0.4s;
+}
+
+.img_button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(65, 65, 65);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #4d2c63;
+    /* Add a dark-grey background on hover */
+    transition-duration: 0.8s;
+}
+
+.login_body {
+    height: 63vh;
+    width: 100vw;
+    background-image: url(https://images.alphacoders.com/860/860173.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 10%;
+}
+
+.cadastro_body {
+    height: 80.5vh;
+    width: 100vw;
+    background-image: url(https://images2.alphacoders.com/532/532525.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 1%;
+}
+
+.cadastro_formulario {
+    height: 70vh;
+    width: 28vw;
+    background-color: rgb(65, 65, 65);
+    padding: 20px;
+    padding-left: 60px;
+    margin-left: 60%;
+    margin-top: 10px;
+    border-radius: 14px;
+    -webkit-box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.75)
+}
+
+.formulario {
+    height: 25vh;
+    width: 25vw;
+    background-color: rgb(65, 65, 65);
+    padding: 20px;
+    padding-left: 60px;
+    margin-left: 14%;
+    border-radius: 14px;
+    -webkit-box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.75)
+}
+
+.formulario input,
+.cadastro_formulario input {
+    margin-bottom: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.formulario button {
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.cadastro_formulario button {
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 18%;
+}
+
+.form_bnt:hover {
+    background-color: #4d2c63;
+    transition-duration: 0.5s;
+}
+
+.formulario li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 28%;
+}
+
+.banner_horizontal2 a {
+    color: white;
+    font-size: larger;
+}
+
+.banner_horizontal2 a:hover {
+    color: rgb(131, 0, 0);
+    transition-duration: 0.4s;
+}
+
+.enci {
+    display: flex;
+}
+
+.enci img {
+    height: 600px;
+    width: 450px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.text {
+    margin-left: 2%;
+    color: white;
+}
+
+.img_baixa {
+    margin-top: 110%;
+}
+
+.enci_b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.enci_b span img {
+    padding-bottom: 20px;
+}
+
+.enci_c {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.enci_c span img {
+    padding-bottom: 20px;
+}

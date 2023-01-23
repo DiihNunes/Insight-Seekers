@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seekers Of Insight</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar_left">
+            <div class="icon_div"><img src="https://pbs.twimg.com/media/EQ2g1tbVAAAzlIf.jpg" alt="" style="width: 50px;
+                    height: 50px;
+                    border-radius: 20px;">
+            </div>
+
+            <button><a href="about_we.html">Sobre nós</a></button>
+            <button><a href="index.html">Inicio</a></button>
+            <button class="agora"><a href="login.html">Login</a></button>
+
+        </div>
+
+        <div class="navbar_right">
+            <button><a href="enciclopedias.html">Enciclopédia</a></button>
+            <button><a href="">quizes</a></button>
+
+        </div>
+    </div>
+
+    <div class="cadastro_body">
+
+        <div class="cadastro_formulario">
+            <label for="email_input" class="la1">Email:</label>
+            <input id="email_input" class="in1"> <br>
+
+            <label for="nome_input" class="la2">Nome:</label>
+            <input id="nome_input" class="in2"> <br>
+
+            <label for="sobrenome_input" class="la2">Sobrenome:</label>
+            <input id="sobrenome_input" class="in2"> <br>
+
+            <label for="tel_input" class="la2">Telefone:</label>
+            <input id="tel_input" class="in2" required placeholder="(xx) xxxxx-xxxx"> <br>
+
+            <label for="idade_input" class="la2">Idade:</label>
+            <input id="idade_input" class="in2" type="date"> <br>
+
+            <label for="senha_input" class="la3">Sua senha:</label>
+            <input id="senha_input" class="in3" type="password"> <br>
+
+            <input type="checkbox" onclick="ver_senha()">Ver senha <br>
+
+            <label for="confirmacao_senha_input" class="la4">Confirme sua senha:</label>
+            <input id="confirmacao_senha_input" class="in4" type="password"> <br>
+
+            <input type="checkbox" onclick="ver_senha2()"> Ver senha <br>
+
+            <button onclick=" cadastrar()">Cadastrar-se</button>
+        </div>
+    </div>
+    </div>
+
+    </div>
+</body>
+<script>
+    function cadastrar() {
+        var nomeVar = nome_input.value;
+        var sobrenomeVar = sobrenome_input.value
+        var telVar = tel_input.value
+        var idadeVar = idade_input.value
+        var emailVar = email_input.value;
+        var senhaVar = senha_input.value;
+        var confirmacaoSenhaVar = confirmacao_senha_input.value;
+
+        if (nomeVar == "" || emailVar == "" || senhaVar == "" || confirmacaoSenhaVar == ""
+            || sobrenomeVar == "" || telVar == "" || idadeVar == "") {
+            alert ("Mensagem de erro: todos os campos em branco.");
+        }
+
+        else {
+            alert ("cadastro efetuado. Redirecionando...");
+            setTimeout(() => {
+                window.location = "login.html";
+            }, "1000")
+        }
+    }
+
+    function ver_senha() {
+        var senha = document.getElementById("senha_input");
+
+        if (senha.type === "password") {
+            senha.type = "text";
+        }
+
+        else {
+            senha.type = "password";
+        }
+    }
+
+    function ver_senha2() {
+        var confirmacaoSenha = document.getElementById("confirmacao_senha_input");
+
+        if (confirmacaoSenha.type === "password") {
+            confirmacaoSenha.type = "text";
+        }
+
+        else {
+            confirmacaoSenha.type = "password";
+        }
+    }
+    
+</script>
